@@ -1,0 +1,128 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*navbar*/
+
+#navbar-body {
+  background-color: #8AC9FF;
+}
+
+#navbar-brand {
+  margin: 1%;
+  font-size: 1.5em;
+}
+
+.menu-items {
+    text-align: center;
+    margin: 0 1% 0 1%;
+}
+
+.App-logo {
+    height: 5vmin;
+}
+
+/*greeting*/
+.greeting {
+    font-family: "Avenir Next";
+    text-align: justify;
+    margin: 3%;
+    padding: 1%;
+    font-size: 2em;
+}
+
+#hello {
+    font-size: 1.5em;
+    text-align: left;
+
+}
+
+/*main components*/
+.sections {
+    background-color: #FFF196;
+    padding: 5%;
+    margin: 2% 0 2%;
+}
+
+.title {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: -1%;
+    margin-bottom: 2%;
+}
+
+.text {
+    margin: auto 15% auto 15%;
+    text-align: justify;
+    line-height: 2;
+
+}
+
+.heading {
+    text-align: center;
+    margin: 2% auto 2%;
+}
+
+/*Projects*/
+
+@media (max-width: 450px) {
+
+}
+.project-logo {
+    width: 90%;
+    margin: 5%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 1.1em;
+    font-color: #212529;
+}
+
+.project-text {
+    line-height: 2;
+}
+
+
+/*Contact*/
+.contact-layout {
+    padding: 5% 30%;
+    align-items: center;
+}
+
+.contact {
+    height: 10vmin;
+    max-width: auto;
+    border: 10%;
+    margin-top: -5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright {
+    text-align: center;
+}
